@@ -29,9 +29,18 @@ or make medical decisions.
 
 ```bash
 pip install -r requirements.txt
+```
 
-Usage
+## Usage
 
 Run an example script:
-python scripts/normal_apex_realistic.py
-Generated audio files should be written to outputs/.
+
+```bash
+python scripts/claude_apex_realistic.py
+```
+
+Generated audio files should be written to `outputs/`.
+
+## License
+
+MIT License.
