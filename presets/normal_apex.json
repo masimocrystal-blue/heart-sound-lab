@@ -1,0 +1,9 @@
+{
+"name": "normal_apex",
+"description": "Normal adult apex / mitral area heart sound.",
+"duration": 60,
+"sample_rate": 48000,
+"heart_rate_bpm": 68,
+"respiratory_sinus_arrhythmia": true,
+"auscultation_site": "apex"
+}

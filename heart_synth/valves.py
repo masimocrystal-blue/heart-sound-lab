@@ -1,0 +1,3 @@
+"""
+Valve sound synthesis utilities.
+"""

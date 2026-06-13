@@ -1,0 +1,13 @@
+pycache/
+*.pyc
+.DS_Store
+.venv/
+venv/
+
+outputs/
+*.wav
+*.aiff
+*.flac
+*.mp3
+
+!examples/audio/*.wav
