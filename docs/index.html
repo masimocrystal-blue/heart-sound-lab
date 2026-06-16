@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heart Sound Lab Audio Preview</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+    .sample {
+      margin: 28px 0;
+      padding: 18px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+    }
+    audio {
+      width: 100%;
+      margin-top: 8px;
+    }
+    .note {
+      font-size: 0.95em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Heart Sound Lab Audio Preview</h1>
+
+  <p>
+    Pre-rendered synthetic heart sound examples from the Heart Sound Lab repository.
+  </p>
+
+  <p class="note">
+    These sounds are synthetic and intended for procedural audio synthesis,
+    sound design, and educational experimentation. They are not clinical recordings,
+    diagnostic tools, or validated medical teaching references.
+  </p>
+
+  <div class="sample">
+    <h2>Claude Apex Realistic 60s</h2>
+    <audio controls preload="metadata" src="audio/claude_apex_realistic_60s.m4a"></audio>
+  </div>
+
+  <div class="sample">
+    <h2>GPT Apex Realistic 60s</h2>
+    <audio controls preload="metadata" src="audio/gpt_apex_realistic_60s.m4a"></audio>
+  </div>
+
+  <div class="sample">
+    <h2>Gemini Apex Synth Model 60s</h2>
+    <audio controls preload="metadata" src="audio/gemini_apex_synth_model_60s.m4a"></audio>
+  </div>
+
+  <p>
+    WAV master files are available from the GitHub Releases page.
+  </p>
+</body>
+</html>
